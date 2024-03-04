@@ -23,7 +23,6 @@ import {
   MIN_SIDEBAR_WIDTH,
   NARROW_SIDEBAR_WIDTH,
   Path,
-  REPO_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -155,11 +154,16 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          GPT￥9.99
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          <div>
+            <a href="https://gpt2.dongstop.link/" target="_blank" className={styles["sidebar-sub-title"]}>
+              请勿分开分享本站
+            </a>
+          </div>
         </div>
+
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
@@ -183,7 +187,7 @@ export function SideBar(props: { className?: string }) {
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : Locale.Plugin.Name}
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
+          onClick={() => window.location.reload()}
           shadow
         />
       </div>
@@ -217,8 +221,11 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
+            <a href="https://mai.dongstop.link/buy/1" target="_blank" rel="noopener noreferrer">
+              <IconButton 
+                text="原版" 
+                shadow 
+              />
             </a>
           </div>
         </div>

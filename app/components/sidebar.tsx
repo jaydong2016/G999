@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <div>
-            <a href="https://gpt2.dongstop.link/" target="_blank" className={styles["sidebar-sub-title"]}>
+            <a href="https://chat.644566.xyz/" target="_blank" className={styles["sidebar-sub-title"]}>
               请勿公开分享本站
             </a>
           </div>

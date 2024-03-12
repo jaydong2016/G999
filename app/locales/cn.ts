@@ -4,16 +4,16 @@ import { SubmitKey } from "../store/config";
 const isApp = !!getClientConfig()?.isApp;
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "hai1.dongstop.link",
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码。",
+      : "📍 公益站今日额度已用尽。\n👉 [捐赠版 无限额](https://mai.dongstop.link/buy/3) 👉 [原版 无限额](https://mai.dongstop.link/buy/1)",
   },
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
+    SubTips: "或者输入你的 OpenAI API 密钥",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -63,7 +63,6 @@ const cn = {
       Masks: "所有面具",
       Clear: "清除聊天",
       Settings: "对话设置",
-      UploadImage: "上传图片",
     },
     Rename: "重命名对话",
     Typing: "正在输入…",
@@ -72,7 +71,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。-若提示错误，请尝试刷新页面！！切换模型";
+      return inputHints + "，/ 触发补全。 | - 若出现大量乱码，请您刷新网页→新建聊天→再试";
     },
     Send: "发送",
     Config: {
@@ -120,7 +119,7 @@ const cn = {
     ResetConfirm: "确认清空历史摘要？",
   },
   Home: {
-    NewChat: "新的聊天",
+    NewChat: "新建聊天",
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",
@@ -313,23 +312,6 @@ const cn = {
           SubTitle: "选择指定的部分版本",
         },
       },
-      Google: {
-        ApiKey: {
-          Title: "API 密钥",
-          SubTitle: "从 Google AI 获取您的 API 密钥",
-          Placeholder: "输入您的 Google AI Studio API 密钥",
-        },
-
-        Endpoint: {
-          Title: "终端地址",
-          SubTitle: "示例：",
-        },
-
-        ApiVersion: {
-          Title: "API 版本（仅适用于 gemini-pro）",
-          SubTitle: "选择一个特定的 API 版本",
-        },
-      },
       CustomModel: {
         Title: "自定义模型名",
         SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
@@ -360,12 +342,12 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "📍 旧网址即将失效。请使用并记住新站（密码不变）👉 https://chat.644566.xyz/\n💡 有什么可以帮你的吗？",
+    BotHello: "📍 公益站维持不易，请勿滥用！\n👉 [赞助版](https://mai.dongstop.link/buy/3) | 👉 [ChatGPT](https://openai.dongstop.link/)  [原版账号](https://mai.dongstop.link/buy/1)\n💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
-        "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，不要加粗，如果没有主题，请直接返回“闲聊”",
+        "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，如果没有主题，请直接返回“闲聊”",
       Summarize:
         "简要总结一下对话内容，用作后续的上下文提示 prompt，控制在 200 字以内",
     },
@@ -379,14 +361,14 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    Toast: (x: any) => `包含 ${x} 条预设提示词`,
+    Toast: (x: any) => `建议：发送频次不宜过快！ ${x} 预设词`,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "重载",
+    Name: "刷新",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",
@@ -459,9 +441,9 @@ const cn = {
     Config: "配置",
   },
   Exporter: {
-    Description: {
-      Title: "只有清除上下文之后的消息会被展示",
-    },
+    Description : {
+      Title: "只有清除上下文之后的消息会被展示"
+    },  
     Model: "模型",
     Messages: "消息",
     Topic: "主题",

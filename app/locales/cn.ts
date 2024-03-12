@@ -379,7 +379,7 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    Toast: (x: any) => `包含 ${x} 条预设提示词`,
+    Toast: (x: any) => `建议：发送频次不宜过快！ ${x} 预设词`,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",

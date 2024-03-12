@@ -10,8 +10,8 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "GPT￥9.99",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "dongstop.vip",
+  description: "www.dongstop.vip",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "GPT￥9.99",
+    title: "GPT",
     statusBarStyle: "default",
   },
 };

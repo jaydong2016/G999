@@ -72,7 +72,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。-若提示错误，请尝试刷新页面！！切换模型";
+      return inputHints + "，/ 触发补全。-若提示错误，请尝试刷新页面，新建聊天";
     },
     Send: "发送",
     Config: {

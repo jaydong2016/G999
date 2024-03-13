@@ -159,7 +159,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           <div>
             <a href="https://www.dongstop.vip/" target="_blank" className={styles["sidebar-sub-title"]}>
-              www.dongstop.vip
+              dongstop.vip
             </a>
           </div>
         </div>

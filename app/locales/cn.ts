@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "📍 旧网址面临失效。请使用并记住新址（密码不变）👉 https://999.dongstop.vip/ https://chat.644566.xyz/\n💡 有什么可以帮你的吗？",
+    BotHello: "📍 旧网址面临失效。请使用并记住新址（密码不变）👉 https://999.dongstop.vip/ \n💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

@@ -10,7 +10,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "dongstop.vip",
+  title: "free.644566.xyz",
   description: "www.dongstop.vip",
   viewport: {
     width: "device-width",

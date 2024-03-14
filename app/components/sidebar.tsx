@@ -154,7 +154,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          FreeGPT 公益小站
+          FreeGPT 公益站
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <div>
@@ -221,9 +221,9 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="https://mai.dongstop.link/buy/1" target="_blank" rel="noopener noreferrer">
+            <a href="https://mai.dongstop.link/buy/3" target="_blank" rel="noopener noreferrer">
               <IconButton 
-                text="原版" 
+                text="捐赠版" 
                 shadow 
               />
             </a>

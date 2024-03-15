@@ -10,7 +10,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "free.644566.xyz",
+  title: "FreeGPT | dongstop.vip",
   description: "www.dongstop.vip",
   viewport: {
     width: "device-width",

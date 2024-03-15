@@ -221,9 +221,9 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="https://mai.dongstop.link/buy/3" target="_blank" rel="noopener noreferrer">
+            <a href="https://mai.dongstop.link/buy/1" target="_blank" rel="noopener noreferrer">
               <IconButton 
-                text="捐赠版" 
+                text="赞助" 
                 shadow 
               />
             </a>

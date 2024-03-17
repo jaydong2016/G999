@@ -158,8 +158,8 @@ export function SideBar(props: { className?: string }) {
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <div>
-            <a href="https://www.dongstop.vip/" target="_blank" className={styles["sidebar-sub-title"]}>
-              收藏不迷路 dongstop.vip
+            <a href="https://mai.dongstop.link/buy/1" target="_blank" className={styles["sidebar-sub-title"]}>
+              每日限额用完即止
             </a>
           </div>
         </div>
@@ -221,9 +221,9 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="https://mai.dongstop.link/buy/1" target="_blank" rel="noopener noreferrer">
+            <a href="https://mai.dongstop.link/buy/3" target="_blank" rel="noopener noreferrer">
               <IconButton 
-                text="原版免翻" 
+                text="打赏" 
                 shadow 
               />
             </a>

@@ -20,7 +20,7 @@ export enum SubmitKey {
 }
 
 export enum Theme {
-  Auto = "auto",
+  Auto = "light",
   Dark = "dark",
   Light = "light",
 }
@@ -54,7 +54,7 @@ export const DEFAULT_CONFIG = {
     frequency_penalty: 0,
     sendMemory: true,
     historyMessageCount: 16,
-    compressMessageLengthThreshold: 1000,
+    compressMessageLengthThreshold: 2000,
     enableInjectSystemPrompts: true,
     template: DEFAULT_INPUT_TEMPLATE,
   },

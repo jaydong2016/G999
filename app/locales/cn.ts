@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "📍 公益站负载饱和或额度用尽。请稍后再来吧。\n👉 [送正版 API 额度 5 美刀，可以用很久](https://burn.hair/register?aff=21Jd) \n👉 [捐赠版 不限额](https://mai.dongstop.link/buy/3) 👉 [原版 无限用](https://mai.dongstop.link/buy/1) ",
+      : "📍 公益站负载饱和或额度用尽。请稍后再来吧。\n👉 [送正版 API 额度 5 美刀](https://burn.hair/register?aff=7SPJ) \n👉 [捐赠版 不限额](https://mai.dongstop.link/buy/3) 👉 [原版 无限用](https://mai.dongstop.link/buy/1) ",
   },
   Auth: {
     Title: "需要密码",
@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "📍 公益站维持不易，请勿滥用！\n👉 [送正版 API 额度 5 美刀，可以用很久](https://burn.hair/register?aff=21Jd) \n👉 [GPT 原版不限量](https://mai.dongstop.link/buy/1)\n💡 有什么可以帮你的吗？",
+    BotHello: "📍 公益站维持不易，请勿滥用！ \n👉 [GPT 原版不限量](https://mai.dongstop.link/buy/1)\n💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

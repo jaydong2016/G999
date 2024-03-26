@@ -11,7 +11,7 @@ const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
   title: "GPT￥9.99",
-  description: "Your personal ChatGPT Chat Bot.",
+  description: "GPT￥9.99",
   viewport: {
     width: "device-width",
     initialScale: 1,

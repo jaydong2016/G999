@@ -72,7 +72,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。-若提示错误，请尝试刷新页面，新建聊天";
+      return inputHints + "，/ 触发补全。-如遇乱码报错，请新建聊天再试！很关键！！";
     },
     Send: "发送",
     Config: {
@@ -120,7 +120,7 @@ const cn = {
     ResetConfirm: "确认清空历史摘要？",
   },
   Home: {
-    NewChat: "新的聊天",
+    NewChat: "新建聊天",
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",

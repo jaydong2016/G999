@@ -379,7 +379,7 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    Toast: (x: any) => `包含 ${x} 条预设提示词`,
+     Toast: (x: any) => `⚠️ 如遇乱码、报错，请新建聊天再试！ ${x} 预设词`,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",
@@ -400,7 +400,7 @@ const cn = {
       Create: "新建",
     },
     Item: {
-    Toast: (x: any) => `⚠️ 如遇报错、乱码，请新建聊天再试！ ${x} 预设词`,
+      Info: (count: number) => `包含 ${count} 条预设对话`,
       Chat: "对话",
       View: "查看",
       Edit: "编辑",

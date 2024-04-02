@@ -359,7 +359,7 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
+    DefaultTopic: "新建聊天",
     BotHello: "主用网址：https://999.dongstop.vip/ | 备用：https://chat.644566.xyz/ \n有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
@@ -400,7 +400,7 @@ const cn = {
       Create: "新建",
     },
     Item: {
-      Info: (count: number) => `包含 ${count} 条预设对话`,
+    Toast: (x: any) => `⚠️ 如遇报错、乱码，请新建聊天再试！ ${x} 预设词`,
       Chat: "对话",
       View: "查看",
       Edit: "编辑",

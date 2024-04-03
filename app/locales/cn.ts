@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "📍 公益站负载过饱或额度用尽。请稍后再来吧。 \n👉 [捐赠版 不限额](https://mai.dongstop.link/buy/3) 👉 [原版账号 无限用](https://mai.dongstop.link/buy/1) ",
+      : "📍 公益站负载过饱或额度用尽。请稍后再来吧。 \n👉 [捐赠版 不限额](https://mai.dongstop.link/buy/3) ",
   },
   Auth: {
     Title: "需要密码",
@@ -72,7 +72,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。-如遇乱码报错，请新建聊天再试！很关键！！";
+      return inputHints + "，/ 触发补全。-如遇乱码报错，请新建聊天再试！";
     },
     Send: "发送",
     Config: {
@@ -379,7 +379,7 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    Toast: (x: any) => `⚠️ 如出现乱码，请新建聊天再试！ ${x} 预设词`,
+    Toast: (x: any) => `⚠️ 如出现乱码、报错，请新建聊天再试！ ${x} 预设词`,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",

@@ -159,7 +159,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           <div>
           <a href="https://dongstop.vip" target="_blank" className={styles["sidebar-sub-title"]}>
-            本站网址 dongstop.vip
+            收藏不迷路 dongstop.vip
             </a>
           </div>
         </div>

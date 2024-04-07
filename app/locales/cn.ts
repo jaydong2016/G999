@@ -44,7 +44,7 @@ const cn = {
       Edit: "编辑",
     },
     Commands: {
-      new: "多·新建聊天",
+      new: "新建聊天",
       newm: "从面具新建聊天",
       next: "下一个聊天",
       prev: "上一个聊天",
@@ -120,7 +120,7 @@ const cn = {
     ResetConfirm: "确认清空历史摘要？",
   },
   Home: {
-    NewChat: "新建聊天",
+    NewChat: "多·新建聊天",
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",
@@ -379,7 +379,7 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    Toast: (x: any) => `📍若出现乱码，请刷新后新建聊天再试 ${x} 预设词`,
+    Toast: (x: any) => `！若出现乱码，请刷新页面+新建聊天 ${x} 预设词`,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",

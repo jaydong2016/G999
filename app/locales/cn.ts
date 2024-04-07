@@ -72,7 +72,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。-若提示错误，请新建聊天再试！很关键！";
+      return inputHints + "，/ 触发补全。 -报错就刷新+新建聊天";
     },
     Send: "发送",
     Config: {
@@ -379,14 +379,14 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-     Toast: (x: any) => `⚠️ 如遇乱码、报错，请新建聊天再试！ ${x} 预设词`,
+     Toast: (x: any) => `⚠️ 若出现乱码、报错，请刷新页面+新建聊天 ${x} 预设词`,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "重载",
+    Name: "刷新",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",

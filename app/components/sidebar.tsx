@@ -157,11 +157,9 @@ export function SideBar(props: { className?: string }) {
           FreeGPT 公益站
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          <div>
-          <a href="https://mai.dongstop.link/buy/3" target="_blank" className={styles["sidebar-sub-title"]} style="color: red;">
-              乱码报错就 刷新+新建聊天
-          </a>
-          </div>
+         <div className={styles["sidebar-sub-title"]} style={{color: 'red'}}>
+             乱码报错就 刷新+新建聊天
+         </div>
         </div>
 
         <div className={styles["sidebar-logo"] + " no-dark"}>

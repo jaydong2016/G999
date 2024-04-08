@@ -158,9 +158,9 @@ export function SideBar(props: { className?: string }) {
         </div>
         <div className={styles["sidebar-sub-title"]}>
           <div>
-          <a href="https://dongstop.vip" target="_blank" className={styles["sidebar-sub-title"]}>
-            乱码报错就 刷新+新建聊天
-            </a>
+          <span className={styles["sidebar-sub-title"]} style="color: red;">
+              乱码报错请 刷新+新建聊天
+          </span>
           </div>
         </div>
 

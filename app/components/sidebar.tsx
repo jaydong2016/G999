@@ -157,13 +157,9 @@ export function SideBar(props: { className?: string }) {
           GPT￥9.99
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          <div>
-            <a href="https://chat.644566.xyz/" target="_blank" className={styles["sidebar-sub-title"]}>
-              请勿公开分享本站
-            </a>
-          </div>
+         <div className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
+             乱码解决：刷新+新建聊天
         </div>
-
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>

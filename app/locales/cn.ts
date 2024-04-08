@@ -72,7 +72,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。 -乱码报错就 刷新+新建聊天";
+      return inputHints + "，/ 触发补全。 -乱码解决：刷新页面+新建聊天";
     },
     Send: "发送",
     Config: {
@@ -386,7 +386,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "点此刷新！",
+    Name: "点此刷新",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",

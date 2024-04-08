@@ -157,8 +157,9 @@ export function SideBar(props: { className?: string }) {
           GPT￥9.99
         </div>
         <div className={styles["sidebar-sub-title"]}>
-        <div className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
-            乱码解决：刷新+新建聊天 
+         <div className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
+             乱码解决：刷新+新建聊天
+         </div>
         </div>
 
         <div className={styles["sidebar-logo"] + " no-dark"}>
@@ -167,7 +168,6 @@ export function SideBar(props: { className?: string }) {
       </div>
 
       <div className={styles["sidebar-header-bar"]}>
-        <IconButton
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -219,9 +219,9 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="https://mai.dongstop.link/buy/1" target="_blank" rel="noopener noreferrer">
+            <a href="https://mai.dongstop.link/buy/3" target="_blank" rel="noopener noreferrer">
               <IconButton 
-                text="原版" 
+                text="打赏" 
                 shadow 
               />
             </a>

@@ -157,9 +157,11 @@ export function SideBar(props: { className?: string }) {
           GPT￥9.99
         </div>
         <div className={styles["sidebar-sub-title"]}>
-         <div className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
-          请勿公开分享本站{"\n"}乱码解决：刷新+新建聊天
-         </div>
+        <div className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
+            请勿公开分享本站
+        </div>
+        <div className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
+            乱码解决：刷新+新建聊天 
         </div>
 
         <div className={styles["sidebar-logo"] + " no-dark"}>

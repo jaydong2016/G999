@@ -72,7 +72,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。 -报错就刷新+新建聊天";
+      return inputHints + "，/ 触发补全。 -乱码报错就刷新+新建聊天";
     },
     Send: "发送",
     Config: {
@@ -120,7 +120,7 @@ const cn = {
     ResetConfirm: "确认清空历史摘要？",
   },
   Home: {
-    NewChat: "多·新建聊天",
+    NewChat: "新建聊天",
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",
@@ -379,14 +379,14 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    Toast: (x: any) => `！若出现乱码，请刷新页面+新建聊天 ${x} 预设词`,
+    Toast: (x: any) => `若出现乱码，请刷新页面+新建聊天！ ${x} `,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "多·刷新",
+    Name: "点此刷新",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",

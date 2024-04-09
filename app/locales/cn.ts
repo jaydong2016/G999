@@ -72,7 +72,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。 -乱码解决：刷新页面+新建聊天";
+      return inputHints + "，/ 触发补全。 -发送频次不宜过快";
     },
     Send: "发送",
     Config: {
@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新建聊天",
-    BotHello: "⚠️ 若出现大量乱码，请 刷新页面+新建聊天 \n主用网址：https://999.dongstop.vip/ \n备用网址：https://chat.644566.xyz/ \n有什么可以帮你的吗？",
+    BotHello: "主用网址：https://999.dongstop.vip/ \n备用网址：https://chat.644566.xyz/ \n有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

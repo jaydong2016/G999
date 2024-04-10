@@ -155,15 +155,14 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           FreeGPT 公益站
-        </div>
-        <div className={styles["sidebar-sub-title"]}>
-         <div className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
-             乱码解决：刷新+新建聊天
-         </div>
-        </div>
-
-        <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon />
+          </div>
+          <div className={styles["sidebar-sub-title"]}>
+            <a href="https://www.dongstop.vip" className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
+           收藏不迷路 dongstop.vip
+            </a>
+          </div>
+          <div className={styles["sidebar-logo"] + " no-dark"}>
+            <ChatGptIcon />
         </div>
       </div>
 

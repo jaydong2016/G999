@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "📍 公益站负载过饱或额度用尽。请稍后再来吧。 \n👉 [捐赠版 不限额](https://mai.dongstop.link/buy/3) ",
+      : "📍 公益站负载过饱或额度用尽。请稍后再来吧。 \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3) ",
   },
   Auth: {
     Title: "需要密码",
@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "📍 公益维持不易，请勿滥用！ \n👉 [捐赠版 不限额](https://mai.dongstop.link/buy/3)\n💡 有什么可以帮你的吗？",
+    BotHello: "📢 本站网址：https://www.dongstop.vip/ \n📍 公益站维持不易，请勿滥用！ \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3)\n💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

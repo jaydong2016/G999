@@ -386,7 +386,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "点此刷新",
+    Name: "刷新",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",

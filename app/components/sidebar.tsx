@@ -154,11 +154,11 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          FreeGPT 公益站
+          Xai baipiao
           </div>
           <div className={styles["sidebar-sub-title"]}>
-            <a href="https://www.dongstop.vip" className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
-           本站网址：dongstop.vip
+            <a href="https://xai.644566.xyz/" className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
+           最新网址：xai.644566.xyz
             </a>
           </div>
           <div className={styles["sidebar-logo"] + " no-dark"}>
@@ -220,7 +220,7 @@ export function SideBar(props: { className?: string }) {
           <div className={styles["sidebar-action"]}>
             <a href="https://mai.dongstop.link/buy/3" target="_blank" rel="noopener noreferrer">
               <IconButton 
-                text="打赏" 
+                text="❤️" 
                 shadow 
               />
             </a>

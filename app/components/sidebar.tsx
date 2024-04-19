@@ -154,11 +154,11 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          Xai baipiao
+          XAI baipiao
           </div>
           <div className={styles["sidebar-sub-title"]}>
             <a href="https://xai.644566.xyz/" className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
-           最新网址：xai.644566.xyz
+           最新可用网址：xai.644566.xyz
             </a>
           </div>
           <div className={styles["sidebar-logo"] + " no-dark"}>

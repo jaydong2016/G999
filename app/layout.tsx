@@ -10,8 +10,8 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "FreeGPT | dongstop.vip",
-  description: "www.dongstop.vip",
+  title: "XAI baipiao free",
+  description: "xai.644566.xyz",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "GPT",
+    title: "XAI",
     statusBarStyle: "default",
   },
 };

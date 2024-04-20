@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           </div>
           <div className={styles["sidebar-sub-title"]}>
             <a href="https://xai.644566.xyz/" className={styles["sidebar-sub-title"]} style={{color: '#af5ded'}}>
-           最新可用网址：xai.644566.xyz
+           收藏最新网址：xai.644566.xyz
             </a>
           </div>
           <div className={styles["sidebar-logo"] + " no-dark"}>

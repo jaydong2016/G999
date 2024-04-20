@@ -10,8 +10,8 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "GPT￥9.99",
-  description: "GPT￥9.99",
+  title: "XAI￥9.99",
+  description: "XAI￥9.99",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "GPT￥9.99",
+    title: "XAI￥9.99",
     statusBarStyle: "default",
   },
 };

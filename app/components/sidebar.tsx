@@ -154,11 +154,11 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          GPT￥9.99
+          XAI ￥9.99
         </div>
         <div className={styles["sidebar-sub-title"]}>
          <div className={styles["sidebar-sub-title"]}>
-             乱码解决：刷新+新建聊天
+             乱码解决：关闭代理软件
          </div>
         </div>
 

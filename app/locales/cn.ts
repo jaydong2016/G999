@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "📢 本站唯一网址：https://xai.644566.xyz/ \n📍 公益站维持不易，请勿滥用！ \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3)\n💡 有什么可以帮你的吗？",
+    BotHello: "📢 乱码解决：尝试关闭你的代理软件 \n📢 收藏网址：https://aix.644566.xyz/  \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3)\n💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

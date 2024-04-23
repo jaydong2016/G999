@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "📢 乱码解决：尝试关闭你的代理软件 \n📢 收藏网址：https://aix.644566.xyz/  \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3)\n💡 有什么可以帮你的吗？",
+    BotHello: "📢 乱码解决：关闭你的代理软件+新建聊天 \n📍 收藏网址：https://aix.644566.xyz/  \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3)\n💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
@@ -379,7 +379,7 @@ const cn = {
     Failed: "下载失败。",
   },
   Context: {
-    Toast: (x: any) => `若出现乱码，请刷新页面+新建聊天！ ${x} `,
+    Toast: (x: any) => `乱码解决：关闭代理软件+新建聊天！ ${x} `,
     Edit: "当前对话设置",
     Add: "新增一条对话",
     Clear: "上下文已清除",

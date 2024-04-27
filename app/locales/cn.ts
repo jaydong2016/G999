@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新建聊天",
-    BotHello: "乱码解决：关闭代理软件→新建聊天 \n建议您保存以下网址以防被墙失联。 \nhttps://999.644566.xyz \nhttps://chat.644566.xyz \nhttps://999.adone.eu.org \n有什么可以帮你的吗？",
+    BotHello: "建议您保存以下网址以防失联： \nhttps://999.644566.xyz \nhttps://chat.644566.xyz \nhttps://999.adone.eu.org \n有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

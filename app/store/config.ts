@@ -54,7 +54,7 @@ export const DEFAULT_CONFIG = {
     frequency_penalty: 0,
     sendMemory: true,
     historyMessageCount: 16,
-    compressMessageLengthThreshold: 4000,
+    compressMessageLengthThreshold: 8000,
     enableInjectSystemPrompts: true,
     template: DEFAULT_INPUT_TEMPLATE,
   },

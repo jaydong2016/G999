@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新建聊天",
-    BotHello: "[更懂中文的模型：deepseek-chat](https://r2.644566.xyz/sj/IMG_20240201_101501.jpg)\n建议您保存以下网址以防失联： \nhttps://999.644566.xyz \nhttps://chat.644566.xyz \nhttps://999.adone.eu.org \n有什么可以帮你的吗？",
+    BotHello: "[切换模型：deepseek-chat](https://r2.644566.xyz/2024/2ed8a1299599b8620c41cdac5f60d6ff.jpg)\n建议您保存以下网址以防失联： \nhttps://999.644566.xyz \nhttps://chat.644566.xyz \nhttps://999.adone.eu.org \n有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

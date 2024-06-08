@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "📍 公益站今日额度已用尽。请明天再来吧。 \n📍 新公益站，需简单注册 👉https://hai1.dongstop.link/ \n👉  [9.99 捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3) ",
+      : "📍 公益站今日额度已用尽。请明天再来吧。 \n📍 简单注册可用 👉https://hai1.dongstop.link/ \n👉  [9.99 捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3) ",
   },
   Auth: {
     Title: "需要密码",
@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "📍 [请遵守《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm) \n📍 [推荐长文本模型：deepseek-chat](https://r2.644566.xyz/2024/2ed8a1299599b8620c41cdac5f60d6ff.jpg) \n📍 收藏网址：https://aix.644566.xyz/  \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3)\n👉 [公益免费 API](https://burn.hair/register?aff=Eovu)\n💡 有什么可以帮你的吗？",
+    BotHello: "📍 [请遵守《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm) \n📍 新站简单注册可用👉https://hai1.dongstop.link/ \n📍 收藏网址：https://aix.644566.xyz/  \n👉 [捐赠版 稳定&不限额](https://mai.dongstop.link/buy/3)\n💡 有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

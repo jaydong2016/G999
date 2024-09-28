@@ -72,7 +72,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全。 -发送频次不宜过快";
+      return inputHints + "，/ 触发补全。-若提示错误，请尝试切换模型！！";
     },
     Send: "发送",
     Config: {
@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新建聊天",
-    BotHello: "[切换模型：google-AI](https://r2.644566.xyz/2024/728341c109fbd180bf0d8118561fc19c.jpg)\n建议您保存以下网址以防失联： \nhttps://999.644566.xyz \nhttps://chat.644566.xyz \nhttps://999.adone.eu.org \n有什么可以帮你的吗？",
+    BotHello: "[如遇到报错可尝试切换模型](https://r2.644566.xyz/2024/728341c109fbd180bf0d8118561fc19c.jpg)\n建议您保存以下网址以防失联： \nhttps://999.644566.xyz \nhttps://chat.644566.xyz \nhttps://999.adone.eu.org \n有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

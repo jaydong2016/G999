@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
         </div>
         <div className={styles["sidebar-sub-title"]}>
          <div className={styles["sidebar-sub-title"]}>
-             乱码解决：关闭代理软件
+             如遇到报错可尝试切换模型
          </div>
         </div>
 
